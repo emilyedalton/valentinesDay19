@@ -4,7 +4,7 @@
 $(document).ready(function(){
   $(".photoGallery").slick({
     centerMode: true,
-    centerPadding: '50px',
+    centerPadding: '0px',
     dots: false,
     infinite: true,
     speed: 300,
@@ -26,7 +26,7 @@ $(document).ready(function(){
       {
         breakpoint: 600,
         settings: {
-            centerMode: false,
+        centerMode: false,
           slidesToShow: 2,
           slidesToScroll: 2
         }
@@ -34,7 +34,7 @@ $(document).ready(function(){
       {
         breakpoint: 480,
         settings: {
-            centerMode: false,
+          centerMode: false,
           slidesToShow: 1,
           slidesToScroll: 1
         }
