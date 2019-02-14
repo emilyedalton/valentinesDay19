@@ -3,7 +3,7 @@
 
 $(document).ready(function(){
   $(".photoGallery").slick({
-    centerMode: true,
+    // centerMode: true,
     // centerPadding: '60px',
     dots: false,
     infinite: true,
