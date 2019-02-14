@@ -1,0 +1,15 @@
+body{ background-color: lightblue}
+
+.container{
+    font-family:Arial;
+    width:500px;
+    display:flex;
+    flex-direction: row;
+    margin:0 auto;
+}
+.photoGallery{
+   
+    color:black;
+
+
+}
