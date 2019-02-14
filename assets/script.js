@@ -10,7 +10,8 @@ $(document).ready(function(){
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
-    
+    nextArrow: '<b><i class="fas fa-forward"></i></b>',
+    prevArrow:'<b><i class="fas fa-backward"></i></b>',
     responsive: [
       {
         breakpoint: 1024,
@@ -40,5 +41,6 @@ $(document).ready(function(){
       }
     ]}
 );
+
 })
 
