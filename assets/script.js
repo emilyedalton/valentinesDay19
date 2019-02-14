@@ -3,8 +3,8 @@
 
 $(document).ready(function(){
   $(".photoGallery").slick({
-    // centerMode: true,
-    // centerPadding: '60px',
+    centerMode: true,
+    centerPadding: '50px',
     dots: false,
     infinite: true,
     speed: 300,
@@ -15,6 +15,7 @@ $(document).ready(function(){
       {
         breakpoint: 1024,
         settings: {
+        centerMode: false,
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
@@ -24,6 +25,7 @@ $(document).ready(function(){
       {
         breakpoint: 600,
         settings: {
+            centerMode: false,
           slidesToShow: 2,
           slidesToScroll: 2
         }
@@ -31,6 +33,7 @@ $(document).ready(function(){
       {
         breakpoint: 480,
         settings: {
+            centerMode: false,
           slidesToShow: 1,
           slidesToScroll: 1
         }
