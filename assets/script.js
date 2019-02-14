@@ -4,7 +4,7 @@
 $(document).ready(function(){
   $(".photoGallery").slick({
     centerMode: true,
-    centerPadding: '60px',
+    // centerPadding: '60px',
     dots: false,
     infinite: true,
     speed: 300,
