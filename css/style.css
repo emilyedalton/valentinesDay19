@@ -9,6 +9,8 @@ h1{
 .container{
     font-family:Arial;
     width:100%;
+    display:block;
+
     /* display:flex;
     flex-direction: row; */
     margin:0 auto;

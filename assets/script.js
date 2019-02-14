@@ -3,11 +3,14 @@
 
 $(document).ready(function(){
   $(".photoGallery").slick({
-    dots: true,
+    centerMode: true,
+    centerPadding: '60px',
+    dots: false,
     infinite: true,
     speed: 300,
     slidesToShow: 3,
     slidesToScroll: 1,
+    
     responsive: [
       {
         breakpoint: 1024,
@@ -15,7 +18,7 @@ $(document).ready(function(){
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true
+          dots: false
         }
       },
       {
